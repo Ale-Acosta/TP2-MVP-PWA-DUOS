@@ -35,18 +35,18 @@ h1,h2, h3{
 .form-control {
   background-color: navajowhite;
 }
-.card{
+#movies-list .card {
   margin: 8px;
   padding: 12px;
   max-width: 100 px;
+  max-width: 320px;
   box-shadow: 12px 12px 6px -6px #8B1874;
   background-color: navajowhite;
 
 }
-.card img{
-  max-width: 200 px;
-  height: 350 px;
-
+#movies-list .card img{
+max-width: 300px;
+max-height: 450px;
 }
 .uno{
   background-image: url(/images/mortal.jpeg);
