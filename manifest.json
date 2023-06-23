@@ -1,0 +1,33 @@
+{
+    "theme_color": "#8B1874",
+    "background_color": "#F79540", 
+    "display": "minimal-ui",
+    "scope": "/",
+    "start_url": "index.html",
+    "name": "MOVIE",
+    "short_name": "Pelis",
+    "description": "En Movie encontraras tus peliculas favoritas, clásicas y estrenos, te compartimos el año, los principales actores, el director y la califición obtenida en IMDb. Lo mejor de todo es que podrás guardar tus favoritas para verlas cuando quieras.",
+    "icons": [
+        {
+            "src": "images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+            
+        }
+    ]
+}

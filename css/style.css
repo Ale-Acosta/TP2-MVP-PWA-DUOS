@@ -1,0 +1,155 @@
+
+
+body{
+  background-color: #F79540;
+}
+.navbar {
+  background-color: #8B1874;
+
+}
+.navbar-brand{
+  color: #FC4F00;
+}
+.nav-link{
+  color: #f5cb5c;
+}
+.nav-link:hover{
+  color: #FC4F00;
+}
+p{
+  color: #3C4048;
+}
+
+.btn{
+  background-color: #8B1874;
+  border-color: #8B1874;
+  color: white;
+}
+.btn.active{
+  background-color: #FC4F00;
+}
+
+h1,h2, h3{
+  color: #8B1874;
+}
+.form-control {
+  background-color: navajowhite;
+}
+.card{
+  margin: 8px;
+  padding: 12px;
+  max-width: 100 px;
+  box-shadow: 12px 12px 6px -6px #8B1874;
+  background-color: navajowhite;
+
+}
+.card img{
+  max-width: 200 px;
+  height: 350 px;
+
+}
+.uno{
+  background-image: url(/images/mortal.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.dos{
+  background-image: url(/images/lion.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.tres{
+  background-image: url(/images/nino.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.cuatro{
+  background-image: url(/images/harry.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.cinco{
+  background-image: url(/images/spider.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.seis{
+  background-image: url(/images/morbius.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.navbar-toggler{
+  background-color: #FC4F00;
+}
+
+
+
+.add-button,
+.remove-button {
+  cursor: pointer;
+  color: #f5cb5c;
+  text-decoration:none;
+  margin-top: 5px;
+}
+
+
+
+#offline-mode img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#offline-mode p {
+  font-size: 18px;
+  color: #8B1874;
+}
+span{
+  color: green;
+}
+.off{
+  color: red;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fdd;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
